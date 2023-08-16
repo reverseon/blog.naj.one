@@ -7,7 +7,6 @@ categories:
 tags:
     - Serverless
     - Cloudflare
-draft: true
 ---
 ![Landing](
     /img/thrfi-landing.png
