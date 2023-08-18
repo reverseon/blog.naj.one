@@ -9,7 +9,7 @@ tags:
     - Cloudflare
 ---
 ![Landing](
-    /img/thrfi-landing.png
+    /images/thrfi-landing.png
 )
 
 This project idea came up when I needed something cool to display on my Discord profile that was simple enough to make. I think an URL shortener would look cool to display on my profile. Then, as I work on it, I read one of Cloudflare's official [tutorial projects](https://developers.cloudflare.com/workers/tutorials/build-a-qr-code-generator/) using Cloudflare Workers and decides to then a QR Code generator feature in the process.
@@ -37,7 +37,7 @@ The backend is a Cloudflare Worker that uses Cloudflare KV to store the data. Wh
 ## Flowchart
 In a bird's view, this is the simplified process of the project, represented using boxes and arrows.
 
-![Flowchart](/img/thrfi_flowchart.jpg)
+![Flowchart](/images/thrfi_flowchart.jpg)
 
 There are four endpoints available in the backend:
 - `/shorten` to shorten a URL
