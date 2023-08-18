@@ -1,0 +1,87 @@
+html {
+  overflow-y: scroll
+}
+:root {
+  --bgcolor: #f8f9fa;
+  --dimcolor: #eee;
+  --fontcolor: #000;
+  --linkcolor: #00e;
+  --visitedcolor: #551a8b;
+  --precolor: #fff;
+  --prebgcolor: #000;
+}
+.brandIconColor {
+  /* dark filter */
+  filter: invert(0%) sepia(100%) saturate(7500%) hue-rotate(243deg) brightness(85%) contrast(110%);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+     --bgcolor: #222;
+     --dimcolor: #333;
+     --fontcolor: #ddd;
+     --linkcolor: #5bf;
+     --visitedcolor: #ae5ee0;
+     --precolor: #fff;
+     --prebgcolor: #383838;
+  }
+  .brandIconColor {
+    /* light filter */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+}
+body {
+  color: var(--fontcolor);
+  background: var(--bgcolor);
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:link {
+  color: var(--linkcolor);
+}
+a:visited {
+  color: var(--visitedcolor);
+}
+a:active {
+  color: var(--visitedcolor);
+}
+h1,h2,h3 {
+  line-height: 1.2;
+}
+p > code {
+  color: var(--precolor);
+  background: var(--prebgcolor);
+  padding: 2px;
+}
+pre {
+  color: var(--precolor);
+  background: var(--prebgcolor);
+  padding: 24px;
+  overflow-x: auto;
+}
+article {
+  padding: 5px 0;
+}
+.center  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+figcaption {
+  color: #888;
+  font: 12px/1.5 monospace;
+  text-align: center;
+}
+figure {
+  margin: auto;
+}
