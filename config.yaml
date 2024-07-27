@@ -1,7 +1,7 @@
 baseURL: https://blog.naj.one/ 
 languageCode: en-us
-theme: smigle
-title: Thirafi Dev (B)logs
+theme: hugo-theme-yue
+title: Thirafi Dev Logs
 menu:
   main:
     - identifier: home
